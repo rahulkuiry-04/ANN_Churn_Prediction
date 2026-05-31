@@ -148,4 +148,3 @@ Rahul Kuiry
 
 GitHub: https://github.com/rahulkuiry-04
 
-If you found this project useful, consider giving it a ⭐.
