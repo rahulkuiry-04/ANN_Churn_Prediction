@@ -1,22 +1,22 @@
-# 🚀 Customer Churn Prediction using Artificial Neural Networks (ANN)
+Customer Churn Prediction using Artificial Neural Networks (ANN)
 
-## 📌 Project Overview
+## Project Overview
 
 Customer retention is a critical challenge for businesses. This project uses a Deep Learning-based Artificial Neural Network (ANN) to predict whether a customer is likely to leave a bank based on demographic and financial information.
 
 The model is deployed as an interactive Streamlit web application where users can input customer details and receive real-time churn predictions.
 
----
 
-## 🎯 Business Problem
+
+## Business Problem
 
 Acquiring new customers is often more expensive than retaining existing ones.
 
 This project helps businesses identify customers at risk of churning so that proactive retention strategies can be implemented.
 
----
 
-## 🛠️ Tech Stack
+
+## Tech Stack
 
 * Python
 * TensorFlow / Keras
@@ -26,9 +26,9 @@ This project helps businesses identify customers at risk of churning so that pro
 * Streamlit
 * Pickle
 
----
 
-## 📊 Features Used
+
+## Features Used
 
 The model predicts churn using:
 
@@ -43,41 +43,31 @@ The model predicts churn using:
 * Active Membership Status
 * Estimated Salary
 
----
 
-## 🔄 Data Preprocessing
 
-✔ Label Encoding
+## Data Preprocessing
 
-✔ One-Hot Encoding
+-> Label Encoding
 
-✔ Feature Scaling using StandardScaler
+-> One-Hot Encoding
 
-✔ Train-Test Split
+-> Feature Scaling using StandardScaler
 
----
+-> Train-Test Split
 
-## 🧠 ANN Architecture
 
-Input Layer
 
-⬇
+## ANN Architecture
 
-Hidden Layer (ReLU)
+Input Layer->Hidden Layer (ReLU)->Hidden Layer (ReLU)->Output Layer (Sigmoid)
 
-⬇
 
-Hidden Layer (ReLU)
-
-⬇
-
-Output Layer (Sigmoid)
 
 The model outputs a probability score indicating the likelihood of customer churn.
 
----
 
-## 🌐 Streamlit Application
+
+## Streamlit Application
 
 The application allows users to:
 
@@ -86,18 +76,18 @@ The application allows users to:
 * Predict churn probability instantly
 * Receive churn classification results
 
----
 
-## 📷 Application Live Demo
+
+## Application Live Demo
 
 -->https://annchurnprediction-c6qrmt4tonjuhfwk5tokjp.streamlit.app/
 
 
 
 
-## 📂 Project Structure
+## Project Structure
 
-```text
+
 ANN_Churn_Prediction/
 │
 ├── app.py
@@ -109,20 +99,13 @@ ANN_Churn_Prediction/
 ├── onehot_encoder_geo.pkl
 ├── label_encoder_gender.pkl
 ├── README.md
-```
 
-## ⚙️ Installation
+## Installation
 
-### Clone Repository
-
-```bash
-git clone https://github.com/rahulkuiry-04/ANN_Churn_Prediction.git
-cd ANN_Churn_Prediction
-```
 
 ### Install Dependencies
 
-```bash
+'''
 pip install -r requirements.txt
 ```
 
@@ -132,9 +115,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
 
-## 📈 Model Output
+## Model Output
 
 The model returns:
 
@@ -151,7 +133,7 @@ The customer is likely to churn.
 
 ---
 
-## 🚀 Future Improvements
+## Improvements
 
 * Hyperparameter Tuning
 * Model Explainability (SHAP)
@@ -159,9 +141,8 @@ The customer is likely to churn.
 * CI/CD Pipeline
 * Cloud Deployment (AWS/GCP/Azure)
 
----
 
-## 👨‍💻 Author
+##  Author
 
 Rahul Kuiry
 
